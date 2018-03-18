@@ -1,6 +1,6 @@
 <template>
     <div class="hero">
-	<h1>Simplify Your Life</h1>
+	<h1>Quoter: The Search Engine!</h1>
 	<img v-bind:src="imagePath"/>
     </div>
 </template>
@@ -10,7 +10,7 @@
      name: 'HomePage',
      data () {
 	 return {
-	     imagePath: '/static/images/cloud.jpg'
+	     imagePath: '/static/images/index.jpg'
 	 }
      }
  }

@@ -1,7 +1,7 @@
 <template>
 
     <div id="favorites">
-          <h1>A List of Things To Do</h1>
+          <h1>Favorite Quotations</h1>
           <p v-show="activeItems.length === 0">You are done with all your tasks! Good job!</p>
           <form v-on:submit.prevent="addItem">
             <input type="text" v-model="text">
